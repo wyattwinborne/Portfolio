@@ -1,0 +1,115 @@
+* {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    /*border: 2px solid rgba(0, 0, 0, 0.2);*/
+}
+
+
+#Narrative-Page, #Music-Video-Page, #Commercial-Page {
+    mix-blend-mode: difference;
+    position: fixed;
+    font-family: 'Arial', sans-serif;
+    margin-top: 30px;
+    text-decoration: none;
+    color: white;
+    hover:
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Narrative-Page {
+    margin-left: 1050px;
+}
+
+#Music-Video-Page {
+    margin-left: 1150px;
+    
+}
+
+
+#Commercial-Page {
+    margin-left: 1275px;
+}
+
+.header {
+    color: white;
+    mix-blend-mode: overlay;
+    letter-spacing: .55em;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.35em;
+    margin-left: 46px;   
+}
+
+#whole-header {
+    background-image: url("https://scontent-lax3-1.xx.fbcdn.net/v/t31.0-8/17240708_10155047221944257_1257810339125778017_o.jpg?oh=91efed0c4683dbcf0ea3c19ed300ee58&oe=59FB9B39");
+    background-size: cover;
+    height: 595px;
+    background-position: center;
+    margin-top: -50px;
+    padding: 0px;
+    
+    
+}
+
+#bio-header{
+    font-family: "Times New Roman", serif;
+    font-weight: 600;
+}
+
+#bio {
+    font-family: "Times New Roman", serif;
+    line-height: 1.5em;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    width: fill;
+}
+
+#bio, bio-header{
+    background-color: white;
+}
+
+#contact-text {
+    font-family: "Times New Roman", serif;
+    line-height: 1.5em;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600
+}
+.contact {
+    font-family: "Times New Roman", serif;
+    line-height: 1.5em;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.caption {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0,0,0,0.3);
+    font-size: 45px;
+    display:block;
+    width: 25%;
+    margin-left: 550px;
+    margin-top: 0px
+}
+
+h2 {
+    line-height: 1em;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
